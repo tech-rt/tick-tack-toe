@@ -172,7 +172,12 @@ class Tic_Tac_Toe():
 
         return gameover
 
-
+    score_text = 'Player 1 (X) : ' + str(self.X_score) + '\n'
+        score_text += 'Player 2 (O): ' + str(self.O_score) + '\n'
+        score_text += 'Tie                    : ' + str(self.tie_score)
+        self.canvas.create_text(size_of_board / 2, 3 * size_of_board / 4, font="cmr 30 bold", fill=Green_color,
+                                text=score_text)
+        self.reset_board = True
 
 
 
