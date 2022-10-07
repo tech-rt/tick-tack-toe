@@ -1,6 +1,6 @@
-This repository contains python based interaction
+This repository contains python based interactive tic-tack-toe
 
-Controls
+Controls:
 
 Player X starts the game
 
