@@ -1,4 +1,5 @@
 This repository contains python based interactive tic-tack-toe
+
 Running Tic-Tac-Toe:
 
 git clone https://github.com/vamsi-167/Tic-Tac-Toe.git
@@ -6,6 +7,7 @@ git clone https://github.com/vamsi-167/Tic-Tac-Toe.git
 cd Tic-Tac-Toe
 
 python main.py
+
 
 Controls:
 
